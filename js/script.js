@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const principlesLink = document.getElementById("principlesLink");
 
   // Verificar qué enlace debe estar activo y añadir una clase
-  if (currentUrl.includes("section_1.html")) {
+  if (currentUrl.includes("cyber_attacks.html")) {
     attacksLink.classList.add("active");
-  } else if (currentUrl.includes("section_2.html")) {
+  } else if (currentUrl.includes("information_confidentiality.html")) {
     confidentialityLink.classList.add("active");
-  } else if (currentUrl.includes("section_3.html")) {
+  } else if (currentUrl.includes("information_security_principles.html")) {
     principlesLink.classList.add("active");
   }
 });
