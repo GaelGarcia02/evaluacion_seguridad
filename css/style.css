@@ -1,0 +1,55 @@
+.info_block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 60%;
+  height: auto;
+  margin: 3rem auto;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.text_container {
+  text-align: justify;
+}
+
+.cards_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px;
+  align-items: stretch;
+  padding-bottom: 30px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 20px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex; /* Permite que el contenido de la tarjeta se alinee */
+  flex-direction: column; /* Coloca el título y la imagen en columnas */
+}
+
+.image_card {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  flex-grow: 1; /* Permite que la imagen ocupe el espacio restante */
+  object-fit: cover; /* Asegura que la imagen se recorte pero no se deforme */
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}

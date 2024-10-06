@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7effc;
+}
+
+#navbar {
+  background-color: #9f08f7;
+  color: white;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.sections a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  margin-left: 20px;
+  width: 40px;
+  height: auto;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #ce7ffc;
+  padding: 7px 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.button:hover {
+  background-color: #ddaff8;
+  transform: scale(1.05);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: all 0.25s ease;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #d399f5;
+  transform: scale(1.05);
+}
+
+#profile_image {
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 5px 15px 5px 25px;
+}
+
+.link.active {
+  background-color: #d399f5; /* Color que se usará cuando esté activo */
+  transform: scale(1.05); /* Escala para un efecto similar al hover */
+}
